@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book a call | RixGrow</title>
+<meta name="description" content="Book a free 30 minute call with RixGrow.">
+<meta name="theme-color" content="#060509">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=9">
+<link rel="icon" type="image/svg+xml" href="images/logo-mark.svg">
+</head>
+<body data-page="contact">
+<header class="nav"></header>
+
+<main>
+  <section class="phero">
+    <div class="aurora" style="opacity:.45"><span></span><span></span><span></span></div>
+    <div class="wrap">
+      <span class="eyebrow rv">Book a call</span>
+      <h1 class="h1 split">Book your call. <span class="serif grad">Let's map your growth.</span></h1>
+      <p class="lead rv d2">Tell us who you are, then pick a 30 minute slot that suits you. We look at your content before we talk.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:10px">
+    <div class="wrap contact">
+      <!-- On submit this opens Cal.com (CAL_URL in main.js) with the name, email, social and need filled in -->
+      <form id="brief" class="rv">
+        <label>Your name<input name="name" required autocomplete="name" placeholder="Alex Carter"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email" placeholder="you@brand.com"></label>
+        <label class="full">Your main social media<input name="social" required placeholder="instagram.com/yourbrand"></label>
+        <div class="full"><label style="margin-bottom:10px">What do you need?</label>
+          <div class="opts">
+            <input type="radio" name="need" id="n1" value="Clipping"><label for="n1">Clipping</label>
+            <input type="radio" name="need" id="n2" value="AI content"><label for="n2">AI content</label>
+            <input type="radio" name="need" id="n3" value="Both engines" checked><label for="n3">Both engines</label>
+            <input type="radio" name="need" id="n4" value="Not sure yet"><label for="n4">Not sure yet</label>
+          </div>
+        </div>
+        <button class="btn pri full" type="submit" style="justify-content:center">Book a call with us <span class="ar">&rarr;</span></button>
+        <p class="full form-note">Next you'll pick a 30 minute slot on our calendar, whenever you're free.</p>
+      </form>
+
+      <div class="cinfo rv d2">
+        <div class="next">
+          <h4>How it works</h4>
+          <ol>
+            <li>Tell us your name, email and main social.</li>
+            <li>Pick a 30 minute slot on our calendar.</li>
+            <li>We study your content before the call and come with ideas.</li>
+          </ol>
+        </div>
+        <a href="mailto:hello@rixgrow.com" class="email-link"><div><small>Prefer email?</small>hello@rixgrow.com</div><span>&rarr;</span></a>
+        <a href="https://www.instagram.com/rixgrow.co/" target="_blank" rel="noopener"><div><small>Prefer DMs?</small>@rixgrow.co on Instagram</div><span>&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer></footer>
+<script src="main.js?v=8"></script>
+</body>
+</html>
